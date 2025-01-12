@@ -1,0 +1,256 @@
+[{
+  "_id": {
+    "$oid": "67813baf428ee0e747fe717b"
+  },
+  "name": "Abash school1",
+  "address": "1234 Main St1",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Abash school2",
+  "address": "123 Main St2",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678144e2bb6c7c0e2fca72d4"
+  },
+  "name": "New School Name",
+  "address": "New Address",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781495a33fa2c23c6cb673c"
+  },
+  "name": "Test School",
+  "address": "123 Test St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814e12e694490be58fc727"
+  },
+  "name": "Test School",
+  "address": "123 School St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814e1285d776acfb498f06"
+  },
+  "name": "Test School",
+  "address": "123 Test St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814f267c3fc2c1cc0e82f2"
+  },
+  "name": "Test School",
+  "address": "123 Test St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814f26a28c1565bb004373"
+  },
+  "name": "Test School",
+  "address": "123 School St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814f646dda3d0d37247faf"
+  },
+  "name": "Test School",
+  "address": "123 Test St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814f6445cb487d0f69611f"
+  },
+  "name": "Test School",
+  "address": "123 School St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814fe9087306e1a493b5c7"
+  },
+  "name": "Test School",
+  "address": "123 Test St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814fea60e3d1745b9e85e5"
+  },
+  "name": "Test School",
+  "address": "123 School St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67815109a434e9b5715a1c5a"
+  },
+  "name": "Test School",
+  "address": "123 School St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67815109eedaf392c9f3dafd"
+  },
+  "name": "Test School",
+  "address": "123 Test St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781519705eef7ac8e577925"
+  },
+  "name": "Test School",
+  "address": "123 School St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67815198f5fd7eaf4934f2fe"
+  },
+  "name": "Test School",
+  "address": "123 Test St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151dcf1263a5f4eec1f04"
+  },
+  "name": "Test School",
+  "address": "123 School St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151dc02aa9fb214d40732"
+  },
+  "name": "Test School",
+  "address": "123 Test St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151f961966bc995ec6575"
+  },
+  "name": "Test School",
+  "address": "123 School St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151f93d0aa17130543fa5"
+  },
+  "name": "Test School",
+  "address": "123 Test St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678152548c7d2e019fce44d6"
+  },
+  "name": "Test School",
+  "address": "123 School St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67815254a6cb40eb42d8730e"
+  },
+  "name": "Test School",
+  "address": "123 Test St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678152dd38ae7d0a456f63d8"
+  },
+  "name": "Test School",
+  "address": "123 School St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678152ddd1bace38ef04c4ab"
+  },
+  "name": "Test School",
+  "address": "123 Test St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67815399458fd1d58632831f"
+  },
+  "name": "Test School",
+  "address": "123 School St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781539a6c84aa5dc39c8fc8"
+  },
+  "name": "Test School",
+  "address": "123 Test St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781547e8770cb69b91bad14"
+  },
+  "name": "Test School",
+  "address": "123 Test St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781547e6bfebacc499eb5ec"
+  },
+  "name": "Test School",
+  "address": "123 School St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678154d3812c60620cbd1525"
+  },
+  "name": "Test School",
+  "address": "123 Test St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678154d3a2392e14a3931dc5"
+  },
+  "name": "Test School",
+  "address": "123 School St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678154fd142cb9d3bc4798d3"
+  },
+  "name": "Test School",
+  "address": "123 Test St",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781572878410268e62ea08b"
+  },
+  "name": "Test School",
+  "address": "123 Test St",
+  "__v": 0
+}]

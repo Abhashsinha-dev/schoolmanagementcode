@@ -1,0 +1,411 @@
+{
+	"info": {
+		"_postman_id": "53d958a3-14db-45e0-8df4-4b0dc304a9fb",
+		"name": "SchoolManagement",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14073498"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"abhi@gmail.com\",\r\n    \"password\":\"Test@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "schools",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzdlNGYxNDkyNzFmNzJlMWMwZDBmZmMiLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTczNjM0ODQ4OCwiZXhwIjoxNzM2MzUyMDg4fQ.9cyDEEQM0oZWTAz1not8ypHKd_wyDs_8a7Zam7JPCtE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Abash\",\r\n    \"address\":\"123 Main St4\",\r\n    \"user_id\":\"677e4f149271f72e1c0d0ffc\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/schools",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"schools"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update schools",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzdlNDlhZTkyNzFmNzJlMWMwZDBmZjciLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTczNjQxNDg0OSwiZXhwIjoxNzM2NDE4NDQ5fQ.xy7YuEma2RpzvOZK8KMIctmLhpgEtfOdxRZ1lFYS0m0",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"New School Name\",\r\n  \"address\": \"New Address\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/schools/677e4cdd6ce210439c52e8ac",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"schools",
+						"677e4cdd6ce210439c52e8ac"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete schools",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzdlNDlhZTkyNzFmNzJlMWMwZDBmZjciLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTczNjQxNDg0OSwiZXhwIjoxNzM2NDE4NDQ5fQ.xy7YuEma2RpzvOZK8KMIctmLhpgEtfOdxRZ1lFYS0m0",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/schools/677e4cdd6ce210439c52e8ac",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"schools",
+						"677e4cdd6ce210439c52e8ac"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "classrooms",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzdlNDlhZTkyNzFmNzJlMWMwZDBmZjciLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTczNjQxNDg0OSwiZXhwIjoxNzM2NDE4NDQ5fQ.xy7YuEma2RpzvOZK8KMIctmLhpgEtfOdxRZ1lFYS0m0",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Physics 101\",\r\n  \"capacity\": 30,\r\n  \"resources\": [\"Projector\", \"Whiteboard\", \"Computer\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/classrooms",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"classrooms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "student create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzdlNDlhZTkyNzFmNzJlMWMwZDBmZjciLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTczNjQyNzMwNCwiZXhwIjoxNzM2NDMwOTA0fQ.3-1ImD_K1cPuDvHyTDFqZeWHgmRdLpZ1byV36TV4jnA",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"Chota\",\r\n  \"lastName\": \"Bacha\",\r\n  \"email\": \"student1@gamil.com\",\r\n  \"school_id\":\"677e4cdd6ce210439c52e8ac\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "classrooms update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzdmOWQzMzBlNjgzZjcyNTVhYzg5MTUiLCJyb2xlIjoic2Nob29sX2FkbWluIiwiaWF0IjoxNzM2NDI0NjU5LCJleHAiOjE3MzY0MjgyNTl9.NIYNH1YtWkvuouTIqZVjzFrgV4ZbvgIdd1t4qflWsPE",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Physics 101\",\r\n  \"capacity\": 30,\r\n  \"resources\": [\"Projector\", \"Whiteboard\", \"Computer\"],\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/classrooms/677e4cdd6ce210439c52e8ac",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"classrooms",
+						"677e4cdd6ce210439c52e8ac"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "classrooms delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzdmOWQzMzBlNjgzZjcyNTVhYzg5MTUiLCJyb2xlIjoic2Nob29sX2FkbWluIiwiaWF0IjoxNzM2NDI0NjU5LCJleHAiOjE3MzY0MjgyNTl9.NIYNH1YtWkvuouTIqZVjzFrgV4ZbvgIdd1t4qflWsPE",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/classrooms/677e4cdd6ce210439c52e8ac",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"classrooms",
+						"677e4cdd6ce210439c52e8ac"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "students enroll",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzgxMjFhMzE4NzYwMmI2Y2YxODNiNTkiLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTczNjUyMDI3MCwiZXhwIjoxNzM2NTIzODcwfQ.UvQIil8ecDz02S0lBMGIDcxdgGw0DyFt7s-0u6oo1Ng",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"studentId\": \"67812dc805006fe5a658e0ac\",\r\n  \"classroomId\": \"67812434105f88bcbff72f00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/students/enroll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"students",
+						"enroll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "students transfer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzdlNDlhZTkyNzFmNzJlMWMwZDBmZjciLCJyb2xlIjoic3VwZXJhZG1pbiIsImlhdCI6MTczNjQyNzMwNCwiZXhwIjoxNzM2NDMwOTA0fQ.3-1ImD_K1cPuDvHyTDFqZeWHgmRdLpZ1byV36TV4jnA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"studentId\": \"60d9f3482f8fb514b3b1e3fd\",\r\n  \"fromClassroomId\": \"60d9f3482f8fb514b3b1e3f1\",\r\n  \"toClassroomId\": \"60d9f3482f8fb514b3b1e3f2\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/students/transfer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"students",
+						"transfer"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,1323 @@
+[{
+  "_id": {
+    "$oid": "67813be8428ee0e747fe7184"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Whiteboard",
+    "Computer"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67813bf2428ee0e747fe7188"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 102",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Whiteboard",
+    "Computer"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67813bf8428ee0e747fe718c"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "math 102",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Whiteboard",
+    "Computer"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781451ebb6c7c0e2fca72d9"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 102",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Lab Equipment"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781495a4c15c4ef4d0ac971"
+  },
+  "school_id": {
+    "$oid": "67813baf428ee0e747fe717b"
+  },
+  "name": "Math 101",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781495a4c15c4ef4d0ac975"
+  },
+  "school_id": {
+    "$oid": "67813baf428ee0e747fe717b"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781495a4c15c4ef4d0ac979"
+  },
+  "school_id": {
+    "$oid": "677e4f5d6f03c829f807a3d6"
+  },
+  "name": "History 101",
+  "capacity": 20,
+  "resources": [
+    "Blackboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814e12e694490be58fc729"
+  },
+  "school_id": {
+    "$oid": "67814e12e694490be58fc727"
+  },
+  "name": "Class A",
+  "capacity": 30,
+  "resources": [
+    "projector",
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814e124966f572e16e2c86"
+  },
+  "school_id": {
+    "$oid": "67813baf428ee0e747fe717b"
+  },
+  "name": "Math 101",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814e12e694490be58fc72d"
+  },
+  "school_id": {
+    "$oid": "67814e12e694490be58fc727"
+  },
+  "name": "Class B",
+  "capacity": 30,
+  "resources": [
+    "projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814e12e694490be58fc72f"
+  },
+  "school_id": {
+    "$oid": "67814e12e694490be58fc727"
+  },
+  "name": "Class C",
+  "capacity": 30,
+  "resources": [
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814e124966f572e16e2c8a"
+  },
+  "school_id": {
+    "$oid": "67813baf428ee0e747fe717b"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814e124966f572e16e2c8e"
+  },
+  "school_id": {
+    "$oid": "677e4f5d6f03c829f807a3d6"
+  },
+  "name": "History 101",
+  "capacity": 20,
+  "resources": [
+    "Blackboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814f26a28c1565bb004375"
+  },
+  "school_id": {
+    "$oid": "67814f26a28c1565bb004373"
+  },
+  "name": "Class A",
+  "capacity": 30,
+  "resources": [
+    "projector",
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814f27a28c1565bb004379"
+  },
+  "school_id": {
+    "$oid": "67814f26a28c1565bb004373"
+  },
+  "name": "Class B",
+  "capacity": 30,
+  "resources": [
+    "projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814f27a28c1565bb00437b"
+  },
+  "school_id": {
+    "$oid": "67814f26a28c1565bb004373"
+  },
+  "name": "Class C",
+  "capacity": 30,
+  "resources": [
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814f27ffb2f5c1950be691"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Math 101",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814f27ffb2f5c1950be695"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814f27ffb2f5c1950be699"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "History 101",
+  "capacity": 20,
+  "resources": [
+    "Blackboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814f64f199d1bdcfad3cb5"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Math 101",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814f64f199d1bdcfad3cb9"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814f64f199d1bdcfad3cbd"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "History 101",
+  "capacity": 20,
+  "resources": [
+    "Blackboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814f6445cb487d0f696121"
+  },
+  "school_id": {
+    "$oid": "67814f6445cb487d0f69611f"
+  },
+  "name": "Class A",
+  "capacity": 30,
+  "resources": [
+    "projector",
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814f6545cb487d0f696125"
+  },
+  "school_id": {
+    "$oid": "67814f6445cb487d0f69611f"
+  },
+  "name": "Class B",
+  "capacity": 30,
+  "resources": [
+    "projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814f6545cb487d0f696127"
+  },
+  "school_id": {
+    "$oid": "67814f6445cb487d0f69611f"
+  },
+  "name": "Class C",
+  "capacity": 30,
+  "resources": [
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814fea60e3d1745b9e85e7"
+  },
+  "school_id": {
+    "$oid": "67814fea60e3d1745b9e85e5"
+  },
+  "name": "Class A",
+  "capacity": 30,
+  "resources": [
+    "projector",
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814feab86e0fed183aea85"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Math 101",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814fea60e3d1745b9e85eb"
+  },
+  "school_id": {
+    "$oid": "67814fea60e3d1745b9e85e5"
+  },
+  "name": "Class B",
+  "capacity": 30,
+  "resources": [
+    "projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814feab86e0fed183aea89"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814fea60e3d1745b9e85ed"
+  },
+  "school_id": {
+    "$oid": "67814fea60e3d1745b9e85e5"
+  },
+  "name": "Class C",
+  "capacity": 30,
+  "resources": [
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814feab86e0fed183aea8d"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "History 101",
+  "capacity": 20,
+  "resources": [
+    "Blackboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67815109a434e9b5715a1c5c"
+  },
+  "school_id": {
+    "$oid": "67815109a434e9b5715a1c5a"
+  },
+  "name": "Class A",
+  "capacity": 30,
+  "resources": [
+    "projector",
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151091bd4c442580282d3"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Math 101",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67815109a434e9b5715a1c60"
+  },
+  "school_id": {
+    "$oid": "67815109a434e9b5715a1c5a"
+  },
+  "name": "Class B",
+  "capacity": 30,
+  "resources": [
+    "projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151091bd4c442580282d9"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151091bd4c442580282dd"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "History 101",
+  "capacity": 20,
+  "resources": [
+    "Blackboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67815109a434e9b5715a1c62"
+  },
+  "school_id": {
+    "$oid": "67815109a434e9b5715a1c5a"
+  },
+  "name": "Class C",
+  "capacity": 30,
+  "resources": [
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781519705eef7ac8e577927"
+  },
+  "school_id": {
+    "$oid": "6781519705eef7ac8e577925"
+  },
+  "name": "Class A",
+  "capacity": 30,
+  "resources": [
+    "projector",
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781519705eef7ac8e57792b"
+  },
+  "school_id": {
+    "$oid": "6781519705eef7ac8e577925"
+  },
+  "name": "Class B",
+  "capacity": 30,
+  "resources": [
+    "projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781519805eef7ac8e57792d"
+  },
+  "school_id": {
+    "$oid": "6781519705eef7ac8e577925"
+  },
+  "name": "Class C",
+  "capacity": 30,
+  "resources": [
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67815198e5aa237b52297492"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Math 101",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67815198e5aa237b52297498"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67815198e5aa237b5229749c"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "History 101",
+  "capacity": 20,
+  "resources": [
+    "Blackboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151dcf1263a5f4eec1f06"
+  },
+  "school_id": {
+    "$oid": "678151dcf1263a5f4eec1f04"
+  },
+  "name": "Class A",
+  "capacity": 30,
+  "resources": [
+    "projector",
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151dcf1263a5f4eec1f0a"
+  },
+  "school_id": {
+    "$oid": "678151dcf1263a5f4eec1f04"
+  },
+  "name": "Class B",
+  "capacity": 30,
+  "resources": [
+    "projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151dcf1263a5f4eec1f0c"
+  },
+  "school_id": {
+    "$oid": "678151dcf1263a5f4eec1f04"
+  },
+  "name": "Class C",
+  "capacity": 30,
+  "resources": [
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151dc869441bc9be1fc14"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Math 101",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151dc869441bc9be1fc1a"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151dc869441bc9be1fc1e"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "History 101",
+  "capacity": 20,
+  "resources": [
+    "Blackboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151f961966bc995ec6577"
+  },
+  "school_id": {
+    "$oid": "678151f961966bc995ec6575"
+  },
+  "name": "Class A",
+  "capacity": 30,
+  "resources": [
+    "projector",
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151f961966bc995ec657b"
+  },
+  "school_id": {
+    "$oid": "678151f961966bc995ec6575"
+  },
+  "name": "Class B",
+  "capacity": 30,
+  "resources": [
+    "projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151f961966bc995ec657d"
+  },
+  "school_id": {
+    "$oid": "678151f961966bc995ec6575"
+  },
+  "name": "Class C",
+  "capacity": 30,
+  "resources": [
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151f94e06674164a24d66"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Math 101",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151f94e06674164a24d6c"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151f94e06674164a24d70"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "History 101",
+  "capacity": 20,
+  "resources": [
+    "Blackboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678152548c7d2e019fce44d8"
+  },
+  "school_id": {
+    "$oid": "678152548c7d2e019fce44d6"
+  },
+  "name": "Class A",
+  "capacity": 30,
+  "resources": [
+    "projector",
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678152548c7d2e019fce44dc"
+  },
+  "school_id": {
+    "$oid": "678152548c7d2e019fce44d6"
+  },
+  "name": "Class B",
+  "capacity": 30,
+  "resources": [
+    "projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678152548c7d2e019fce44de"
+  },
+  "school_id": {
+    "$oid": "678152548c7d2e019fce44d6"
+  },
+  "name": "Class C",
+  "capacity": 30,
+  "resources": [
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678152547e961b046ebe5f9a"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Math 101",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678152547e961b046ebe5fa0"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678152547e961b046ebe5fa4"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "History 101",
+  "capacity": 20,
+  "resources": [
+    "Blackboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678152dd38ae7d0a456f63da"
+  },
+  "school_id": {
+    "$oid": "678152dd38ae7d0a456f63d8"
+  },
+  "name": "Class A",
+  "capacity": 30,
+  "resources": [
+    "projector",
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678152dd38ae7d0a456f63de"
+  },
+  "school_id": {
+    "$oid": "678152dd38ae7d0a456f63d8"
+  },
+  "name": "Class B",
+  "capacity": 30,
+  "resources": [
+    "projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678152dd38ae7d0a456f63e0"
+  },
+  "school_id": {
+    "$oid": "678152dd38ae7d0a456f63d8"
+  },
+  "name": "Class C",
+  "capacity": 30,
+  "resources": [
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678152dd99bf13b0ffd2a8c7"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Math 101",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678152dd99bf13b0ffd2a8cd"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678152dd99bf13b0ffd2a8d1"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "History 101",
+  "capacity": 20,
+  "resources": [
+    "Blackboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67815399458fd1d586328321"
+  },
+  "school_id": {
+    "$oid": "67815399458fd1d58632831f"
+  },
+  "name": "Class A",
+  "capacity": 30,
+  "resources": [
+    "projector",
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67815399458fd1d586328325"
+  },
+  "school_id": {
+    "$oid": "67815399458fd1d58632831f"
+  },
+  "name": "Class B",
+  "capacity": 30,
+  "resources": [
+    "projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781539a458fd1d586328327"
+  },
+  "school_id": {
+    "$oid": "67815399458fd1d58632831f"
+  },
+  "name": "Class C",
+  "capacity": 30,
+  "resources": [
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781539a9ab55af94d85e241"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Math 101",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781539a9ab55af94d85e247"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781547e97d6f3491ef98f46"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Math 101",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781547e97d6f3491ef98f4c"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781547e6bfebacc499eb5ee"
+  },
+  "school_id": {
+    "$oid": "6781547e6bfebacc499eb5ec"
+  },
+  "name": "Class A",
+  "capacity": 30,
+  "resources": [
+    "projector",
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781547e6bfebacc499eb5f2"
+  },
+  "school_id": {
+    "$oid": "6781547e6bfebacc499eb5ec"
+  },
+  "name": "Class B",
+  "capacity": 30,
+  "resources": [
+    "projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781547e6bfebacc499eb5f4"
+  },
+  "school_id": {
+    "$oid": "6781547e6bfebacc499eb5ec"
+  },
+  "name": "Class C",
+  "capacity": 30,
+  "resources": [
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678154d372211d0a6840e1c3"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Math 101",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678154d372211d0a6840e1c9"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678154d3a2392e14a3931dc7"
+  },
+  "school_id": {
+    "$oid": "678154d3a2392e14a3931dc5"
+  },
+  "name": "Class A",
+  "capacity": 30,
+  "resources": [
+    "projector",
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678154d3a2392e14a3931dcb"
+  },
+  "school_id": {
+    "$oid": "678154d3a2392e14a3931dc5"
+  },
+  "name": "Class B",
+  "capacity": 30,
+  "resources": [
+    "projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678154d3a2392e14a3931dcd"
+  },
+  "school_id": {
+    "$oid": "678154d3a2392e14a3931dc5"
+  },
+  "name": "Class C",
+  "capacity": 30,
+  "resources": [
+    "whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678154fd1fde40d816bc4d52"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678155655797824bd0ec7871"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678155827d1b19e44c0f4be0"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678155a522c28472a419a5ba"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678155db0ed8442bfb7304ae"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67815631eb5b60cb7270762e"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67815669765dffe72b894f33"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678156920e2649d74b2d2d3c"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678157281f2a7e21025afa4d"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Math 101",
+  "capacity": 30,
+  "resources": [
+    "Projector",
+    "Whiteboard"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678157281f2a7e21025afa53"
+  },
+  "school_id": {
+    "$oid": "67813bb9428ee0e747fe717e"
+  },
+  "name": "Physics 101",
+  "capacity": 25,
+  "resources": [
+    "Projector"
+  ],
+  "__v": 0
+}]

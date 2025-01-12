@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "67813b1c79cd5de2fb26bf73"
+  },
+  "email": "abash@gmail.com",
+  "password": "Test@123",
+  "role": "superadmin"
+},
+{
+  "_id": {
+    "$oid": "67813b5f79cd5de2fb26bf74"
+  },
+  "email": "abhi@gmail.com",
+  "password": "Test@123",
+  "role": "school_admin"
+},
+{
+  "_id": {
+    "$oid": "67813b8679cd5de2fb26bf75"
+  },
+  "email": "jag@gmail.com",
+  "password": "Test@123",
+  "role": "student"
+}]

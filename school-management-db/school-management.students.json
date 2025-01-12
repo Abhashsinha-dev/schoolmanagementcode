@@ -1,0 +1,183 @@
+[{
+  "_id": {
+    "$oid": "67813c1d428ee0e747fe718f"
+  },
+  "school": {
+    "$oid": "677e4cdd6ce210439c52e8ac"
+  },
+  "firstName": "Chota",
+  "lastName": "Bacha",
+  "email": "student1@gamil.com",
+  "__v": 0,
+  "classroom": {
+    "$oid": "67813be8428ee0e747fe7184"
+  }
+},
+{
+  "_id": {
+    "$oid": "67813c844be58058f9939aba"
+  },
+  "firstName": "Chota1",
+  "lastName": "Bacha1",
+  "email": "student1@gamil.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814bc86edeffdcbeab6c92"
+  },
+  "firstName": "Chota1",
+  "lastName": "Bacha1",
+  "email": "student1@gamil.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814e12e694490be58fc72b"
+  },
+  "school": {
+    "$oid": "67814e12e694490be58fc727"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814f26a28c1565bb004377"
+  },
+  "school": {
+    "$oid": "67814f26a28c1565bb004373"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814f6445cb487d0f696123"
+  },
+  "school": {
+    "$oid": "67814f6445cb487d0f69611f"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67814fea60e3d1745b9e85e9"
+  },
+  "school": {
+    "$oid": "67814fea60e3d1745b9e85e5"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67815109a434e9b5715a1c5e"
+  },
+  "school": {
+    "$oid": "67815109a434e9b5715a1c5a"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781519705eef7ac8e577929"
+  },
+  "school": {
+    "$oid": "6781519705eef7ac8e577925"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151dcf1263a5f4eec1f08"
+  },
+  "school": {
+    "$oid": "678151dcf1263a5f4eec1f04"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678151f961966bc995ec6579"
+  },
+  "school": {
+    "$oid": "678151f961966bc995ec6575"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678152548c7d2e019fce44da"
+  },
+  "school": {
+    "$oid": "678152548c7d2e019fce44d6"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678152dd38ae7d0a456f63dc"
+  },
+  "school": {
+    "$oid": "678152dd38ae7d0a456f63d8"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67815399458fd1d586328323"
+  },
+  "school": {
+    "$oid": "67815399458fd1d58632831f"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6781547e6bfebacc499eb5f0"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678154d3a2392e14a3931dc9"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "__v": 0
+}]
