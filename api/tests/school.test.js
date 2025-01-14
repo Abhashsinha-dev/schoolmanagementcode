@@ -35,6 +35,17 @@ beforeAll(async () => {
 afterAll(async () => {
   await mongoose.connection.close();
 });
+describe("GET /schools", () => {
+  it("should return a list of schools", async () => {
+    const response = await request(app)
+      .get("/api/schools")
+      .set("Authorization", `Bearer ${adminToken}`);
+
+    expect(response.status).toBe(200);
+    expect(response.body.length).toBeGreaterThan(0); 
+  });
+
+});
 
 describe("POST /schools", () => {
   it("should create a school (only superadmin can create)", async () => {

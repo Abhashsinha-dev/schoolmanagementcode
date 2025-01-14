@@ -1,6 +1,14 @@
 const Student = require('../models/student');
 const Classroom = require('../models/classroom');
 
+const getAllStudents = async (req, res) => {
+  try {
+    const students = await Student.find(); 
+    res.status(200).json(students);
+  } catch (err) {
+    res.status(500).json({ message: "Error retrieving students" });
+  }
+};
 const createStudent = async (req, res) => {
   try {
     const { firstName, lastName, email, school_id } = req.body;
@@ -79,4 +87,4 @@ const enrollStudent = async (req, res) => {
 };
 
 
-module.exports = { createStudent, transferStudent, enrollStudent };
+module.exports = { createStudent, transferStudent, enrollStudent, getAllStudents };

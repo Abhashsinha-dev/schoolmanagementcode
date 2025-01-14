@@ -4,6 +4,13 @@ const classroomController = require("../controllers/classroomController");
 const authenticateJWT = require("../config/auth");
 const roleMiddleware = require("../middleware/roleMiddleware");
 
+router.get(
+  "/",
+  authenticateJWT,
+  roleMiddleware(["school_admin", "superadmin"]),
+  classroomController.getAllClassrooms
+);
+
 router.post(
   "/",
   authenticateJWT,

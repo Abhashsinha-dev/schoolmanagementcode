@@ -1,6 +1,14 @@
 const Classroom = require("../models/classroom");
 const School = require("../models/school");
 
+const getAllClassrooms = async (req, res) => {
+  try {
+    const classrooms = await Classroom.find(); 
+    res.status(200).json(classrooms);
+  } catch (err) {
+    res.status(500).json({ message: "Error retrieving classrooms" });
+  }
+};
 const createClassroom = async (req, res) => {
   try {
     const { name, capacity, resources, school_id } = req.body;
@@ -64,4 +72,4 @@ const deleteClassroom = async (req, res) => {
   }
 };
 
-module.exports = { createClassroom, updateClassroom, deleteClassroom };
+module.exports = { createClassroom, updateClassroom, deleteClassroom, getAllClassrooms };

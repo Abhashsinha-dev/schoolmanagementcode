@@ -125,3 +125,15 @@ describe("PUT /classrooms/:id", () => {
   });
 });
 
+describe("GET /classrooms", () => {
+  it("should return a list of classrooms", async () => {
+    const response = await request(app)
+      .get("/api/classrooms")
+      .set("Authorization", `Bearer ${adminToken}`);
+
+    expect(response.status).toBe(200);
+    expect(response.body.length).toBeGreaterThan(0); 
+  });
+
+});
+

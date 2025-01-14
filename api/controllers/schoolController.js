@@ -13,7 +13,14 @@ const createSchool = async (req, res) => {
     res.status(500).json({ message: "Error creating school" });
   }
 };
-
+const getAllSchools = async (req, res) => {
+  try {
+    const schools = await School.find(); // Retrieve all schools from the database
+    res.status(200).json(schools);
+  } catch (err) {
+    res.status(500).json({ message: "Error retrieving schools" });
+  }
+};
 const updateSchoolProfile = async (req, res) => {
   try {
     const { id } = req.params;
@@ -41,4 +48,4 @@ const deleteSchool = async (req, res) => {
   }
 };
 
-module.exports = { createSchool, updateSchoolProfile, deleteSchool };
+module.exports = { createSchool, updateSchoolProfile, deleteSchool , getAllSchools};

@@ -1,6 +1,6 @@
 const request = require('supertest');
 const mongoose = require('mongoose');
-const app = require('../app');  // Import your Express app (make sure it's correctly exported)
+const app = require('../App');  // Import your Express app (make sure it's correctly exported)
 const { MongoMemoryServer } = require('mongodb-memory-server');
 const Student = require('../models/student');
 const Classroom = require('../models/classroom');
@@ -97,9 +97,9 @@ describe('Student Controller', () => {
       .put(`/api/students/transfer`)
       .set('Authorization', `Bearer ${studentToken}`)
       .send({
-        studentId,
-        fromClassroomId: classroomId,
-        toClassroomId: newClassroom._id,
+        studentId: '67814bc86edeffdcbeab6c92', // Enter vaild id 
+        fromClassroomId: '67813bf8428ee0e747fe718c',// Enter vaild id 
+        toClassroomId: '67813bf2428ee0e747fe7188',// Enter vaild id
       });
 
     expect(response.status).toBe(200);
@@ -120,8 +120,8 @@ describe('Student Controller', () => {
       .put(`/api/students/enroll`)
       .set('Authorization', `Bearer ${studentToken}`)
       .send({
-        studentId,
-        classroomId: newClassroom._id,
+        studentId: '67814bc86edeffdcbeab6c92', // Enter student id here
+        classroomId: '67813bf8428ee0e747fe718c',// Enter vaild classromm id here
       });
 
     expect(response.status).toBe(200);
